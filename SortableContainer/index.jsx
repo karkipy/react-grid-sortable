@@ -50,7 +50,7 @@ export function SortableContainer({
         return () => {
 
         };
-    }, [containerRef?.current, managerRef?.current]);
+    }, [containerRef?.current, managerRef?.current, others]);
 
     return (
         <SortableContext.Provider value={{ manager: managerRef.current }}>
